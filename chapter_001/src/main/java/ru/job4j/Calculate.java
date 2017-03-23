@@ -8,6 +8,10 @@ package ru.job4j;
 */ 
 
 public class Calculate {
+	/**
+	* Метод для тестирования.
+	* @ Метод main - вывод на консоль строки "Hello world.".
+    */
 	public static void main (String[] args) {
 		System.out.println("Hello world.");
 	}
