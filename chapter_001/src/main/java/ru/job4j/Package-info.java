@@ -1,4 +1,4 @@
-package ru.job4j;
+
 
 /**
 * Class Calculate вывод на консоль строки "Hello world.".
