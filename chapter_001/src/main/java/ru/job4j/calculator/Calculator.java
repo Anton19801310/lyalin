@@ -13,16 +13,16 @@ public class Calculator {
 	private double result;
 	/**
 	* Метод сложения.
-	* @param first.
-	* @param second.
+	* @param first - args.
+	* @param second - args.
 	*/
 	public void add(double first, double second) {
         this.result = first + second;
     }
 	/**
 	* Метод вычетания.
-	* @param first.
-	* @param second.
+	* @param first - args.
+	* @param second - args.
 	*/
 	public void substruct(double first, double second) {
         this.result = first - second;
@@ -30,6 +30,8 @@ public class Calculator {
 
 	/**
 	* Метод деления.
+	* @param first - args.
+	* @param second - args.
 	*/
     public void div(double first, double second) {
 		this.result = first / second;
@@ -37,6 +39,8 @@ public class Calculator {
 
 	/**
 	* Метод умножения.
+	* @param first - args.
+	* @param second - args.
     */
 	public void multiple(double first, double second) {
         this.result = first * second;
@@ -44,6 +48,7 @@ public class Calculator {
 
 	/**
 	*  Калькулятор.
+	* @return calc result.
 	*  Метод вывод результата.
     */
     public double getResult() {
